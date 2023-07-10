@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  
+<style>
+  .jumbotron {
+  height: 600px;
+  text-align: center;
+  background-size: cover;
+  background-image: url(blue.jpg);
+  color: whitesmoke;
+}
+.display-4{
+    margin-top: 120px;
+}
+#para{
+    text-align: center;
+}
+#cardim{
+    height: 290px;
+    width: 290px;
+    border-radius: 100%;
+    align-items: center;
+}
+#appdowonlod{
+    background-color: aqua;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 150px;
+}
+.card{
+  height: 600px;
+}
+.update{
+  color: rgb(155, 153, 153);
+}
+#store{
+    height: 70px;
+    width: 300px;
+
+}
+.lable{
+    text-align: right;
+}
+</style>
+</head>
+  <body data-spy="scroll" data-target="#navbar" data-offset="150">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+        <a class="navbar-brand" href="#">My App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" 
+        aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#jumbotron">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#lcard">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#appdowonlod">Dowonlod my App</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="Email" placeholder="Email" aria-label="Email">
+             <input class="form-control mr-sm-2" type="password" placeholder="password" aria-label="password">
+            <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      
+    <div class="jumbotron" id="jumbotron">
+	  <h1 class="display-4">My Awesome App</h1>
+	  <p class="lead">This is  a simple hero unit, a simple jumbtron-style component for calling extra attention
+       to featured content of information.</p>
+	  <hr class="my-4">
+	  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+	  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+    <div  id="para"> 
+       <h1 id="scrollspyHeading1">Why this app is awesome</h1>
+       <p>This app is awesome to use</p>
+    </div>
+    <div class="container" id="lcard">
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card">
+                   <img src="card.jpg" class="card-img-top" alt="card" id="cardim">
+                   <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                         additional content. This content is a little bit longer.</p>
+                       <p class="update">Updated 3 minites ago</p>  
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="card.jpg" class="card-img-top" alt="card" id="cardim">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                       <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                         content.</p>
+                         <p class="update">Updated 3 minites ago</p>  
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="card.jpg" class="card-img-top" alt="card" id="cardim">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in 
+                        to additional content.
+                         This has even longer content that the first to show that equal height action </p>
+                         <p class="update">Updated 3 minites ago</p>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="appdowonlod">
+       <h3>Dewonlod the app!</h3>
+       <p>Really why should iu derwonlod the app??</p>
+       <p><a href="#"> <img src="ios.png" alt="ios" id="store"></a></p>
+    </div>
+</body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</html>
